@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 50%;
+}
+
+body {
+    background-color: tan;
+}
+
+.navbutton {
+    padding: 15px;
+    margin: 20px;
+    color: blue;
+    background-color: white;
+}
+
+#navwrap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-right: solid black 2px;
+    height: 100%;
+    min-width: 150px;
+    background-color: cornflowerblue;
+}
